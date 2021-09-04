@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "plantilla de backend de NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development babel-node src/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laigma/node-backend.git"
+  },
+  "author": "laigma",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/laigma/node-backend/issues"
+  },
+  "homepage": "https://github.com/laigma/node-backend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "axios": "^0.21.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
